@@ -1,4 +1,5 @@
 language: java
+install: ./install-dependencies.sh
 install: ant deps
 jdk:
   - openjdk11
