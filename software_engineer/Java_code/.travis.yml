@@ -1,7 +1,8 @@
 language: java
-install: ./install-dependencies.sh
-install: ant deps
+install: true
+script: ./mvnw clean install
+cache:
+  directories:
+  - $HOME/.m2
 jdk:
   - openjdk11
-script:
-  - jdk_switcher use openjdk11
