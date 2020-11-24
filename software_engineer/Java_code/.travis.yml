@@ -3,3 +3,5 @@ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 mvn test -B
 jdk: 
   - openjdk11
+script:
+  - jdk_switcher use openjdk11
