@@ -1,8 +1,0 @@
-language: java
-install: true
-script: ./mvnw clean install
-cache:
-  directories:
-  - $HOME/.m2
-jdk:
-  - openjdk11
